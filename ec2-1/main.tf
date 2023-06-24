@@ -23,7 +23,7 @@ EOF
 resource "aws_security_group" "ssh-port" {
   name        = "webserver-security-group-ssh"
   description = "this sg allows port 22"
-  vpc_id      = "vpc-0e07184f7d721ff67"
+  vpc_id      = "vpc-05034e646f568d038"
 
   ingress {
     description = "allows port 22"
